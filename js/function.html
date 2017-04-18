@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<script src="jquery.min.js"></script>
+<script>
+
+    function show_img(id)
+    {
+        if(id=='bandwidth')
+        {
+           $("#upload").show();
+           $("#bandwidth").show();
+        }
+       else if(id=='upload')
+       {
+         $("#upload").show();
+       $("#bandwidth").hide();
+        }
+    return false;
+     } 
+    </script>
+    <button  onclick="javascript:show_img('bandwidth');">Sold</button>
+    <button  onclick="javascript:show_img('upload');">Hide</button>
+    <p> 
+      <img src="sold.jpg" style="position:fixed;left:50px;top:140px;"  id="bandwidth"/>
+      <img src="sid.jpg" style="height:320px; width:340px;" " id="upload"/>
+    </p>
