@@ -1,2 +1,1 @@
-# MITCL
-Player Auction Software
+# mitcl
